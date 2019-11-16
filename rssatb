@@ -1,0 +1,22 @@
+   
+   jQuery.getFeed({
+       url: 'http://process3.gprocurement.go.th/EPROCRssFeedWeb/egpannouncerss.xml?deptId=AA
+',
+       success: function(feed) {
+           alert(feed.title);
+       }
+   });
+   * feed.type
+   * feed.version
+   * feed.title
+   * feed.link
+   * feed.description
+   * feed.language
+   * feed.updated
+   * feed.items: an array of JFeedItem
+   * item.title
+   * item.link
+   * item.description
+   * item.updated
+   * item.id
+
